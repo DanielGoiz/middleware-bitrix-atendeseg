@@ -3,7 +3,6 @@
   "name": "middleware-bitrix-atendeseg-vercel",
   "version": "1.0.0",
   "description": "Middleware serverless para integrar Bitrix24 com AtendeSeg no Vercel",
-  "main": "api/webhook-bitrix.js",
   "scripts": {
     "dev": "vercel dev",
     "build": "echo 'Build completed'",
