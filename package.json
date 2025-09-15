@@ -1,1 +1,29 @@
 
+{
+  "name": "middleware-bitrix-atendeseg-vercel",
+  "version": "1.0.0",
+  "description": "Middleware serverless para integrar Bitrix24 com AtendeSeg no Vercel",
+  "main": "api/webhook-bitrix.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build completed'",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "bitrix24",
+    "atendeseg",
+    "webhook",
+    "whatsapp",
+    "crm",
+    "vercel",
+    "serverless"
+  ],
+  "author": "Sua empresa",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
